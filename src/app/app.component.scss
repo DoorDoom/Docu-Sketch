@@ -1,0 +1,52 @@
+
+.icon-element {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+
+  // .icon-element__container
+
+  &__container {
+    max-width: 30rem;
+    width: 60%;
+    border: 0.2rem solid rgba(0, 0, 0, 0.2);;
+  }
+}
+.container {
+
+  // .container__description
+
+  &__description {
+    display: block;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  // .container__active
+
+  &__active {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+.active {
+
+  // .active__button
+
+  &__button {
+    max-height: 2rem;
+  }
+
+  // .active__icon
+
+  &__icon {
+    width: 8rem;
+    padding: 2rem;
+  }
+}
